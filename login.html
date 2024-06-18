@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido a Limones "Don Tani"</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/miestilo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-green">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto barra" href="principal.html">
+          <img
+            src="assets/img/limon.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="Logotipo"
+          />
+          Limones "Don Tani"
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="quienes_somos.html">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acerca_de.html">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactanos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ingresar
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li>
+                  <a class="dropdown-item" href="registro.html"
+                    >¿No estás registrado?</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ingrese su búsqueda"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Fin Navbar -->
+
+    <!-- Form -->
+    <div class="row justify-content-center">
+      <div class="col-3">
+        <div class="container">
+          <h1>Ingresar</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email </label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <p>
+              ¿Todavía no te registraste?
+              <a href="registro.html">Hacelo aquí</a>
+            </p>
+
+            <button type="submit" class="btn btn-success">Ingresar</button>
+            <button type="reset" class="btn btn-danger">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Form -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-icons">
+          <a href="#" class="social-icon"
+            ><img src="assets/img/facebook.png" alt="facebook"
+          /></a>
+          <a href="#" class="social-icon"
+            ><img src="assets/img/instagram.png" alt="instagram"
+          /></a>
+          <a href="#" class="social-icon"
+            ><img src="assets/img/whatsapp.png" alt="whatsapp"
+          /></a>
+        </div>
+        <p>Derechos de autor ©️ 2024 | Limones "Don Tani"</p>
+      </div>
+    </footer>
+    <!-- Footer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
